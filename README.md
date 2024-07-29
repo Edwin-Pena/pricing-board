@@ -1,3 +1,3 @@
 # pricing-page
-Watch demo
+[Watch demo](https://pricing-page-excercise.netlify.app)
 Pricing page exercise created only with CSS and HTML
