@@ -5,7 +5,6 @@
 
 body {
     background: linear-gradient(to bottom, #181937, #000211);
-    /* height: 100vh; */
     padding: 0;
     margin: 0;
     height: 100%;
@@ -46,7 +45,6 @@ body {
 }
 
 .fa-solid {
-    /* color: red; */
     font-size: 12px;
 
 }
@@ -57,7 +55,7 @@ body {
     transition-duration: .4s;
 }
 
-/* debo hacer que este aparezca como un fade-in */
+
 .nav__dropdown-content {
     display: none;
     flex-direction: column;
@@ -167,7 +165,6 @@ body {
     display: flex;
     padding: 0 0 0 40px;
     margin: 490px 0 0 0;
-    /* justify-content: center; */
     align-items: center;
     column-gap: 20px;
  }
@@ -192,9 +189,7 @@ body {
 }
 
 .nav__link-responsive-login--sign {
-    /* line-height: 30px; */
     background: #5E6AD2;
-    /* padding: 0 14px; */
     border-radius: 20px;
     border: none;
     text-align: center;
@@ -273,7 +268,6 @@ body {
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    /* when flex-direction is column de main axis change and to center in y we needs align-items */
     align-items: center;
 }
 
@@ -294,7 +288,6 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: bold;
-    /* margin-bottom: 21px; */
 }
 
 .plans__line-container {
@@ -321,7 +314,6 @@ body {
     height: 244px;
     flex-direction: column;
     row-gap: 16px;
-    /* width: 238.5px; */
 }
 
 .plans__details-div {
@@ -482,8 +474,6 @@ body {
     color: #fff;
 }
 
-
-
 .plans__contact-sales {
     color: #fff;
     text-align: center;
@@ -529,7 +519,7 @@ body {
 }
 
 .footer {
-    position: relative;  /* comentar ahora a ver si se rompe */
+    position: relative; 
     max-width: 100%;
     border-top: 1px solid #ffffff14;
     border-bottom: 0;
