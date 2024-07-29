@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price board</title>
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/af0e423303.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="nav">
+        <nav class="nav__top-bar">
+            <ul class="nav__menu">
+                <i class="fa-solid fa-code nav__icon"></i>
+                <li class="nav__item"><a href="" class="nav__link">News</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Plans</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Projects</a></li>
+                <li class="nav__item">
+                    <div class="nav__company">
+                        <a href="" class="nav__link nav__buttom">   
+                            Company
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="nav__dropdown-content">
+                            <a href="" class="nav__link nav__link--hover">
+                                <i class="fa-solid fa-people-group"></i>
+                                About 
+                                <p class="nav__p nav__p--hover">Meet the team</p>
+                            </a>
+                            <a href="" class="nav__link nav__link--hover">
+                                <i class="fa-solid fa-feather-pointed"></i>
+                                Blog
+                                <p class="nav__p nav__p--hover">Read recent news</p>
+                            </a>
+                            <a href="" class="nav__link nav__link--hover">
+                                <i class="fa-solid fa-map"></i>
+                                Careers
+                                <p class="nav__p nav__p--hover">See open positions</p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav__login">
+                <a href="" class="nav__link">Log in</a>
+                <a href="" class="nav__link nav__buttom--log">Sign up</a>
+                <input type="checkbox" class="nav__link-icon" id="check">
+                <label for="check" class="nav__checkbtn">
+                    <i class="fa-solid fa-bars nav__icon"></i>
+                </label>
+                <div class="nav__menu-responsive-container">
+                    <ul class="nav__menu-responsive">
+                        <li class="nav__item-responsive"><a href="" class="nav__link-responsive">News</a></li>
+                        <li class="nav__item-responsive"><a href="" class="nav__link-responsive">Plans</a></li>
+                        <li class="nav__item-responsive"><a href="" class="nav__link-responsive">Projects</a></li>
+                        <li class="nav__item-responsive"><a href="" class="nav__link-responsive">Company</a></li>
+                    </ul>
+                    <div class="nav__login-responsive">
+                        <a href="" class="nav__link-responsive-login">Log in</a>
+                        <a href="" class="nav__link-responsive-login  nav__link-responsive-login--sign">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="pricing">
+        <h1 class="pricing__title">Pricing</h1>
+        <p class="pricing__text">Use Linear for free with your whole team. Upgrade to enable unlimited issues, enhanced security controls, and additional features.</p>
+    </section>
+    <main class="plans">
+        <div class="plans__option">
+            <div class="plans__title">
+                <span class="plans__category">Free</span>
+                <span class="plans__desc">Free for everyone</span>
+            </div>
+            <div class="plans__users-container">
+                <i class="plans__users-icon"></i>
+                <span class="plans__users"></span>
+            </div>
+            <div class="plans__line-container">
+                <hr class="plans__line">
+            </div>
+            <div class="plans__details-container">
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">Unlimited members</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">250 issues (+unlimited archived)</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">Import and export</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">All integrations, APIs, webhooks</span>
+                </div>
+            </div>
+            <div class="plans__get-started-container">
+                <a href="" class="plans__get-started">Get started with Free</a>
+            </div>
+        </div>
+        <div class="plans__option plans__option--standard">
+            <div class="plans__title">
+                <span class="plans__category">Standard</span>
+                <div class="plans__container-desc">
+                    <span class="plans__desc">$8 per user/month</span>
+                    <div class="plans__standard-discount">-20%</div>
+                </div>
+            </div>
+            <div class="plans__users-container">
+                <i class="fa-solid fa-people-group plans__users-icon"></i>
+                <span class="plans__users">Best for 1-50 users</span>
+            </div>
+            <div class="plans__line-container">
+                <hr class=".plans__line plans__line--split">
+                <div class="plans__duration-container">
+                    <span class="plans__duration">Monthly</span>
+                    <span class="plans__duration plans__duration--active">Annually</span>
+                </div>
+                <hr class=".plans__line plans__line--split">
+            </div>
+            <div class="plans__details-container">
+                <div class="plans__details-div">
+                    <span class="plans__details">Everything in free, plus…</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">Unlimited issues and file uploads</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">Guest accounts, private teams</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">Admin roles</span>
+                </div>
+            </div>
+            <div class="plans__get-started-container">
+                <a href="" class="plans__get-started plans__get-started--standard">Get started with Standard</a>
+            </div>
+        </div>
+        <div class="plans__option plans__option">
+            <div class="plans__title">
+                <span class="plans__category">Plus</span>
+                <div class="plans__container-desc">
+                    <span class="plans__desc">$14 per user/month</span>
+                </div>
+            </div>
+            <div class="plans__users-container">
+                <i class="fa-solid fa-people-group plans__users-icon"></i>
+                <span class="plans__users">Best for 50+ users</span>
+            </div>
+            <div class="plans__line-container">
+                <hr class=".plans__line plans__line--split">
+                <div class="plans__duration-container plans__duration-container--plus">
+                    <span class="plans__duration plans__duration--plus">Annual billing only</span>
+                </div>
+                <hr class=".plans__line plans__line--split">
+            </div>
+            <div class="plans__details-container">
+                <div class="plans__details-div">
+                    <span class="plans__details">Everything in Standard, plus…</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">SAML / Single Sign On</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">Advanced authentication controls</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <a href="" class="plans__extra-info">Linear Insights</a>
+                    <span class="plans__details"> and SLAs</span>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <a href="" class="plans__extra-info">Linear Asks</a>
+                </div>
+                <div class="plans__details-div">
+                    <i class="fa-solid fa-check plans__chulo"></i>
+                    <span class="plans__details">Priority support</span>
+                </div>
+            </div>
+            <div class="plans__get-started-container">
+                <a href="" class="plans__get-started plans__get-started--plus">Get started with Plus</a>
+                <span class="plans__contact-sales">
+                    or
+                    <a href="" class="plans__extra-info">contact sales</a>
+                </span>
+            </div>
+        </div>
+    </main>
+    <aside class="atmosphere">
+        <div class="atmosphere__container">
+            <i class="fa-solid fa-seedling atmosphere__icon"></i>
+            <span class="atmosphere__text">Linear contributes 1% of your subscription to remove CO₂ from the atmosphere through <a href="" class="atmosphere__extra-info">Stripe Climate</a>.</span>
+        </div>
+    </aside>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__left">
+                <div class="footer__logo-container">
+                    <i class="fa-solid fa-code footer__icon"></i>
+                    <a href="" class="footer__logo">Linear - Designed Worldwide</a>
+                </div>
+                <div class="footer__social-networks">
+                    <a href="" class="footer__a-brands footer__a-brands--one"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="" class="footer__a-brands"><i class="fa-brands fa-github"></i></a>
+                    <a href="" class="footer__a-brands"><i class="fa-brands fa-slack"></i></a>
+                    <a href="" class="footer__a-brands"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Product</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="" class="footer__link">Features</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Integrations</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Pricing</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Changelog</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Docs</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Linear Method</a></li>
+                    <li class="footer__item footer__item--last"><a href="" class="footer__link">Download</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Company</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="" class="footer__link">About us</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Blog</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Careers</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Customers</a></li>
+                    <li class="footer__item footer__item--last"><a href="" class="footer__link">Brand</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Resources</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="" class="footer__link">Startup Program</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Community</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">DPA</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Privacy Policy</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Terms of service</a></li>
+                    <li class="footer__item footer__item--last"><a href="" class="footer__link">Report a vulnerability</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Developers</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="" class="footer__link">API</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Status</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">GitHub</a></li>
+                    <li class="footer__item footer__item--last"><a href="" class="footer__link">README</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
